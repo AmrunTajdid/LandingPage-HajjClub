@@ -1,0 +1,14 @@
+.env
+.env.*
+.git
+.github
+node_modules
+/vendor
+tests
+phpunit.xml
+.phpunit.result.cache
+.editorconfig
+README.md
+DEPLOYMENT_GUIDE.md
+issue_landing_page.md
+scratch
