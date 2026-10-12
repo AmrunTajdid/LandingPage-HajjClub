@@ -635,7 +635,7 @@
                         <!-- Bottom Content -->
                         <div class="absolute bottom-0 inset-x-0 p-6 sm:p-8">
                             <span class="text-[11px] font-mono uppercase tracking-wider text-gold-400 font-semibold block mb-1">
-                                Dokumentasi Kemitraan 01
+                                Dokumentasi Ownership 01
                             </span>
                             <h3 class="text-xl sm:text-2xl font-serif font-black text-white mb-2 group-hover:text-gold-200 transition-colors">
                                 Langkah Pertama Keluarga Mitra
@@ -657,7 +657,7 @@
                     <div @click="activeModal = photos[1]"
                          class="group relative flex-1 min-h-[270px] rounded-3xl overflow-hidden border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 cursor-pointer bg-navy-900">
                         <img src="{{ asset('images/partners/partner-2.jpg') }}"
-                             alt="Penyerahan Dokumen Kemitraan Hajj Club"
+                             alt="Penyerahan Dokumen Ownership Hajj Club"
                              loading="lazy"
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
 
@@ -677,7 +677,7 @@
                         <!-- Bottom Content -->
                         <div class="absolute bottom-0 inset-x-0 p-6 sm:p-7">
                             <span class="text-[11px] font-mono uppercase tracking-wider text-gold-400 font-semibold block mb-1">
-                                Dokumentasi Kemitraan 02
+                                Dokumentasi Ownership 02
                             </span>
                             <h3 class="text-lg sm:text-xl font-serif font-black text-white mb-1.5 group-hover:text-gold-200 transition-colors">
                                 Kesepakatan &amp; Legalitas Kemitraan
@@ -712,7 +712,7 @@
                         <!-- Bottom Content -->
                         <div class="absolute bottom-0 inset-x-0 p-6 sm:p-7">
                             <span class="text-[11px] font-mono uppercase tracking-wider text-gold-400 font-semibold block mb-1">
-                                Dokumentasi Kemitraan 03
+                                Dokumentasi Ownership 03
                             </span>
                             <h3 class="text-lg sm:text-xl font-serif font-black text-white mb-1.5 group-hover:text-gold-200 transition-colors">
                                 Langkah Konkret Menuju Kepemilikan Travel
