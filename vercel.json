@@ -1,6 +1,7 @@
 {
   "version": 2,
   "framework": null,
+  "outputDirectory": "public",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.4"
@@ -9,27 +10,27 @@
   "routes": [
     {
       "src": "/build/(.*)",
-      "dest": "/public/build/$1"
+      "dest": "/build/$1"
     },
     {
       "src": "/images/(.*)",
-      "dest": "/public/images/$1"
+      "dest": "/images/$1"
     },
     {
       "src": "/favicon.(.*)",
-      "dest": "/public/favicon.$1"
+      "dest": "/favicon.$1"
     },
     {
       "src": "/apple-touch-icon.png",
-      "dest": "/public/apple-touch-icon.png"
+      "dest": "/apple-touch-icon.png"
     },
     {
       "src": "/android-chrome-192x192.png",
-      "dest": "/public/android-chrome-192x192.png"
+      "dest": "/android-chrome-192x192.png"
     },
     {
       "src": "/robots.txt",
-      "dest": "/public/robots.txt"
+      "dest": "/robots.txt"
     },
     {
       "src": "/(.*)",
