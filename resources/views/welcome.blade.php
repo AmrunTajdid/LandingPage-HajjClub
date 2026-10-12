@@ -89,8 +89,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <!-- Badge Pelopor -->
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-navy-800/90 border border-gold-500/40 text-gold-400 text-xs sm:text-sm font-semibold mb-8 backdrop-blur-md shadow-gold">
-                <i class="fa-solid fa-star text-xs animate-pulse"></i>
+            <div class="inline-flex items-center px-4 py-2 rounded-full bg-navy-900/80 border border-slate-700/80 text-slate-200 text-xs sm:text-sm font-medium mb-8 backdrop-blur-md">
                 <span>Pelopor Kepemilikan Travel Haji & Umrah Bersama</span>
             </div>
 
