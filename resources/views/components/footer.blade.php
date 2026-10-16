@@ -55,7 +55,7 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-envelope text-gold-400"></i>
-                        <a href="mailto:labbaykharamayn@gmail.com" class="hover:text-gold-400 transition">labbaykharamayn@gmail.com</a>
+                        <a href="mailto:Hajjclub.id@gmail.com" class="hover:text-gold-400 transition">Hajjclub.id@gmail.com</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>

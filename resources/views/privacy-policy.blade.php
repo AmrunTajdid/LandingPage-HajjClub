@@ -203,7 +203,7 @@
                         </div>
                         <div class="flex items-center gap-3 text-xs sm:text-sm">
                             <i class="fa-solid fa-envelope text-gold-400 w-5"></i>
-                            <a href="mailto:labbaykharamayn@gmail.com" class="text-gold-300 hover:underline">labbaykharamayn@gmail.com</a>
+                            <a href="mailto:Hajjclub.id@gmail.com" class="text-gold-300 hover:underline">Hajjclub.id@gmail.com</a>
                         </div>
                         <div class="flex items-center gap-3 text-xs sm:text-sm">
                             <i class="fa-brands fa-whatsapp text-emerald-400 w-5 text-base"></i>
