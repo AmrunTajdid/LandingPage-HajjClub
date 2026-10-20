@@ -582,8 +582,20 @@
                          title: 'Langkah Konkret Menuju Kepemilikan Travel',
                          category: 'Penyerahan Proposal Resmi',
                          desc: 'Penyerahan proposal dan berkas kepemilikan resmi kepada bisnis owner travel haji & umroh yang siap bertumbuh bersama Hajj Club.'
-                     }
-                 ]
+                     },
+                     {
+                        src: '{{ asset('images/partners/partner-4.jpg') }}',
+                        title: 'Sinergi Kepemilikan & Kepercayaan Mitra',
+                        category: 'Kolaborasi & Komitmen Bersama',
+                        desc: 'Bisnis owner travel haji & umroh bersama keluarga memantapkan kebersamaan dan menerima berkas proposal resmi kepemilikan travel Hajj Club.'
+                    },
+                    {
+                        src: '{{ asset('images/partners/partner-5.jpg') }}',
+                        title: 'Penyerahan Berkas Bersama Founder Hajj Club',
+                        category: 'Kemitraan Resmi & Amanah',
+                        desc: 'Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji & umroh bersama kepada bisnis owner mitra.'
+                    }
+                ]
              }"
              class="py-24 bg-gradient-to-b from-navy-900 via-navy-950 to-navy-900 border-b border-gold-500/10 relative overflow-hidden">
 
@@ -606,8 +618,8 @@
                 </p>
             </div>
 
-            <!-- Photos Showcase Grid (1 Tall Portrait + 2 Landscape Stacked) -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch mb-14">
+            <!-- Photos Showcase Grid (Row 1: 1 Tall Portrait + 2 Landscape Stacked) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch mb-6 lg:mb-8">
                 <!-- Photo 1: Vertical Portrait (5 Cols) -->
                 <div class="lg:col-span-5 flex flex-col">
                     <div @click="activeModal = photos[0]"
@@ -720,6 +732,89 @@
                                 Penyerahan proposal dan berkas kepemilikan resmi kepada bisnis owner travel haji &amp; umroh yang siap bertumbuh bersama Hajj Club.
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photos Showcase Row 2: Two Portraits Side-by-Side (Dokumentasi 04 & 05) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch mb-14">
+                <!-- Photo 4: Sinergi Kepemilikan & Kepercayaan Mitra -->
+                <div @click="activeModal = photos[3]"
+                     class="group relative min-h-[460px] sm:min-h-[540px] rounded-3xl overflow-hidden border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 cursor-pointer bg-navy-900 flex flex-col justify-end">
+                    <img src="{{ asset('images/partners/partner-4.jpg') }}"
+                         alt="Sinergi Kepemilikan &amp; Kepercayaan Mitra Hajj Club"
+                         loading="lazy"
+                         class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 absolute inset-0">
+
+                    <!-- Dark Gradient Overlay for Readability -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/45 to-transparent"></div>
+
+                    <!-- Top Floating Badge -->
+                    <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
+                        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-950/85 backdrop-blur-md border border-gold-500/40 text-gold-300 text-xs font-bold shadow-lg">
+                            <i class="fa-solid fa-users text-gold-400"></i>
+                            <span>Sinergi Mitra</span>
+                        </span>
+                        <span class="w-9 h-9 rounded-full bg-navy-950/80 backdrop-blur-md border border-gold-500/30 text-gold-300 flex items-center justify-center text-xs group-hover:bg-gradient-gold group-hover:text-navy-900 transition-colors shadow-lg">
+                            <i class="fa-solid fa-expand"></i>
+                        </span>
+                    </div>
+
+                    <!-- Bottom Content -->
+                    <div class="relative z-10 p-6 sm:p-8">
+                        <span class="text-[11px] font-mono uppercase tracking-wider text-gold-400 font-semibold block mb-1">
+                            Dokumentasi Ownership 04
+                        </span>
+                        <h3 class="text-xl sm:text-2xl font-serif font-black text-white mb-2 group-hover:text-gold-200 transition-colors">
+                            Sinergi Kepemilikan &amp; Kepercayaan Mitra
+                        </h3>
+                        <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
+                            Bisnis owner travel haji &amp; umroh bersama keluarga memantapkan kebersamaan dan menerima berkas proposal resmi kepemilikan travel Hajj Club.
+                        </p>
+                        <span class="inline-flex items-center gap-1.5 text-xs text-gold-400 font-semibold group-hover:underline">
+                            <span>Lihat Foto Kualitas Penuh</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Photo 5: Penyerahan Berkas Bersama Founder Hajj Club -->
+                <div @click="activeModal = photos[4]"
+                     class="group relative min-h-[460px] sm:min-h-[540px] rounded-3xl overflow-hidden border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 cursor-pointer bg-navy-900 flex flex-col justify-end">
+                    <img src="{{ asset('images/partners/partner-5.jpg') }}"
+                         alt="Penyerahan Berkas Bersama Founder Hajj Club"
+                         loading="lazy"
+                         class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 absolute inset-0">
+
+                    <!-- Dark Gradient Overlay for Readability -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/45 to-transparent"></div>
+
+                    <!-- Top Floating Badge -->
+                    <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
+                        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-950/85 backdrop-blur-md border border-gold-500/40 text-gold-300 text-xs font-bold shadow-lg">
+                            <i class="fa-solid fa-handshake text-gold-400"></i>
+                            <span>Founder &amp; Mitra</span>
+                        </span>
+                        <span class="w-9 h-9 rounded-full bg-navy-950/80 backdrop-blur-md border border-gold-500/30 text-gold-300 flex items-center justify-center text-xs group-hover:bg-gradient-gold group-hover:text-navy-900 transition-colors shadow-lg">
+                            <i class="fa-solid fa-expand"></i>
+                        </span>
+                    </div>
+
+                    <!-- Bottom Content -->
+                    <div class="relative z-10 p-6 sm:p-8">
+                        <span class="text-[11px] font-mono uppercase tracking-wider text-gold-400 font-semibold block mb-1">
+                            Dokumentasi Ownership 05
+                        </span>
+                        <h3 class="text-xl sm:text-2xl font-serif font-black text-white mb-2 group-hover:text-gold-200 transition-colors">
+                            Penyerahan Berkas Bersama Founder Hajj Club
+                        </h3>
+                        <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
+                            Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji &amp; umroh bersama kepada bisnis owner mitra.
+                        </p>
+                        <span class="inline-flex items-center gap-1.5 text-xs text-gold-400 font-semibold group-hover:underline">
+                            <span>Lihat Foto Kualitas Penuh</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </span>
                     </div>
                 </div>
             </div>
