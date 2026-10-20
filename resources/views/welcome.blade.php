@@ -592,8 +592,8 @@
                     {
                         src: '{{ asset('images/partners/partner-5.jpg') }}',
                         title: 'Penyerahan Berkas Bersama Founder Hajj Club',
-                        category: 'Ownership Resmi & Amanah',
-                        desc: 'Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji & umroh bersama kepada bisnis owner ownership.'
+                        category: 'Komitmen Bersama Founder',
+                        desc: 'Founder Hajj Club menyerahkan langsung proposal kepemilikan travel haji & umroh bersama kepada bisnis owner.'
                     }
                 ]
              }"
@@ -793,7 +793,7 @@
                     <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
                         <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-950/85 backdrop-blur-md border border-gold-500/40 text-gold-300 text-xs font-bold shadow-lg">
                             <i class="fa-solid fa-handshake text-gold-400"></i>
-                            <span>Founder &amp; Ownership</span>
+                            <span>Founder</span>
                         </span>
                         <span class="w-9 h-9 rounded-full bg-navy-950/80 backdrop-blur-md border border-gold-500/30 text-gold-300 flex items-center justify-center text-xs group-hover:bg-gradient-gold group-hover:text-navy-900 transition-colors shadow-lg">
                             <i class="fa-solid fa-expand"></i>
@@ -809,7 +809,7 @@
                             Penyerahan Berkas Bersama Founder Hajj Club
                         </h3>
                         <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
-                            Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji &amp; umroh bersama kepada bisnis owner ownership.
+                            Founder Hajj Club menyerahkan langsung proposal kepemilikan travel haji &amp; umroh bersama kepada bisnis owner.
                         </p>
                         <span class="inline-flex items-center gap-1.5 text-xs text-gold-400 font-semibold group-hover:underline">
                             <span>Lihat Foto Kualitas Penuh</span>
