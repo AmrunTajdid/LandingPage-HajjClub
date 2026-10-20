@@ -74,7 +74,7 @@
                @click="mobileOpen = false; trackConversion('Navbar_Mobile_CTA', '{{ $waUrl }}')"
                class="w-full bg-gradient-gold text-navy-900 font-bold py-3 rounded-xl hover:shadow-lg flex items-center justify-center gap-2">
                 <i class="fa-brands fa-whatsapp text-lg"></i>
-                <span>Gabung Kemitraan Sekarang</span>
+                <span>Gabung Ownership Sekarang</span>
             </a>
         </div>
     </div>

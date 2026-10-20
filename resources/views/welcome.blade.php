@@ -389,7 +389,7 @@
                                     <span class="text-[10px] uppercase font-semibold text-gold-400 bg-gold-500/10 px-2 py-0.5 rounded border border-gold-500/20">Inklusif</span>
                                 </div>
                                 <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light">
-                                    Membangun sinergi kepemilikan bersama yang memberikan akses luas bagi mitra untuk tumbuh di industri travel religi.
+                                    Membangun sinergi kepemilikan bersama yang memberikan akses luas bagi ownership untuk tumbuh di industri travel religi.
                                 </p>
                             </div>
                         </div>
@@ -535,7 +535,7 @@
                     number="03"
                     title="TRANSPARAN"
                     subtitle="Teknologi Digital Terbuka"
-                    description="Sistem pelaporan terbuka yang terintegrasi platform digital modern, mempermudah akses informasi kinerja bagi seluruh mitra pemilik."
+                    description="Sistem pelaporan terbuka yang terintegrasi platform digital modern, mempermudah akses informasi kinerja bagi seluruh ownership pemilik."
                 />
 
                 <!-- UVP 4 -->
@@ -567,15 +567,15 @@
                  photos: [
                      {
                          src: '{{ asset('images/partners/partner-1.jpg') }}',
-                         title: 'Langkah Pertama Keluarga Mitra',
+                         title: 'Langkah Pertama Keluarga Ownership',
                          category: 'Komitmen & Antusiasme Keluarga',
                          desc: 'Bisnis owner travel haji & umroh bersama keluarga memantapkan langkah awal bergabung dalam kepemilikan travel haji & umrah bersama Hajj Club.'
                      },
                      {
                          src: '{{ asset('images/partners/partner-2.jpg') }}',
-                         title: 'Kesepakatan & Legalitas Kemitraan',
+                         title: 'Kesepakatan & Legalitas Ownership',
                          category: 'Sinergi Legalitas Resmi',
-                         desc: 'Penyerahan berkas kesepakatan kemitraan kepemilikan bersama yang terbuka, transparan, dan berlandaskan Good Corporate Governance.'
+                         desc: 'Penyerahan berkas kesepakatan ownership kepemilikan bersama yang terbuka, transparan, dan berlandaskan Good Corporate Governance.'
                      },
                      {
                          src: '{{ asset('images/partners/partner-3.jpg') }}',
@@ -585,15 +585,15 @@
                      },
                      {
                         src: '{{ asset('images/partners/partner-4.jpg') }}',
-                        title: 'Sinergi Kepemilikan & Kepercayaan Mitra',
+                        title: 'Sinergi Kepemilikan & Kepercayaan Ownership',
                         category: 'Kolaborasi & Komitmen Bersama',
                         desc: 'Bisnis owner travel haji & umroh bersama keluarga memantapkan kebersamaan dan menerima berkas proposal resmi kepemilikan travel Hajj Club.'
                     },
                     {
                         src: '{{ asset('images/partners/partner-5.jpg') }}',
                         title: 'Penyerahan Berkas Bersama Founder Hajj Club',
-                        category: 'Kemitraan Resmi & Amanah',
-                        desc: 'Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji & umroh bersama kepada bisnis owner mitra.'
+                        category: 'Ownership Resmi & Amanah',
+                        desc: 'Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji & umroh bersama kepada bisnis owner ownership.'
                     }
                 ]
              }"
@@ -649,7 +649,7 @@
                                 Dokumentasi Ownership 01
                             </span>
                             <h3 class="text-xl sm:text-2xl font-serif font-black text-white mb-2 group-hover:text-gold-200 transition-colors">
-                                Langkah Pertama Keluarga Mitra
+                                Langkah Pertama Keluarga Ownership
                             </h3>
                             <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
                                 Bisnis owner travel haji &amp; umroh bersama keluarga memantapkan langkah awal bergabung dalam kepemilikan travel haji &amp; umrah bersama Hajj Club.
@@ -691,10 +691,10 @@
                                 Dokumentasi Ownership 02
                             </span>
                             <h3 class="text-lg sm:text-xl font-serif font-black text-white mb-1.5 group-hover:text-gold-200 transition-colors">
-                                Kesepakatan &amp; Legalitas Kemitraan
+                                Kesepakatan &amp; Legalitas Ownership
                             </h3>
                             <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                                Penyerahan berkas kesepakatan kemitraan kepemilikan bersama yang terbuka, transparan, dan profesional.
+                                Penyerahan berkas kesepakatan ownership kepemilikan bersama yang terbuka, transparan, dan profesional.
                             </p>
                         </div>
                     </div>
@@ -738,11 +738,11 @@
 
             <!-- Photos Showcase Row 2: Two Portraits Side-by-Side (Dokumentasi 04 & 05) -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch mb-14">
-                <!-- Photo 4: Sinergi Kepemilikan & Kepercayaan Mitra -->
+                <!-- Photo 4: Sinergi Kepemilikan & Kepercayaan Ownership -->
                 <div @click="activeModal = photos[3]"
                      class="group relative min-h-[460px] sm:min-h-[540px] rounded-3xl overflow-hidden border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 cursor-pointer bg-navy-900 flex flex-col justify-end">
                     <img src="{{ asset('images/partners/partner-4.jpg') }}"
-                         alt="Sinergi Kepemilikan &amp; Kepercayaan Mitra Hajj Club"
+                         alt="Sinergi Kepemilikan &amp; Kepercayaan Ownership Hajj Club"
                          loading="lazy"
                          class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 absolute inset-0">
 
@@ -753,7 +753,7 @@
                     <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
                         <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-950/85 backdrop-blur-md border border-gold-500/40 text-gold-300 text-xs font-bold shadow-lg">
                             <i class="fa-solid fa-users text-gold-400"></i>
-                            <span>Sinergi Mitra</span>
+                            <span>Sinergi Ownership</span>
                         </span>
                         <span class="w-9 h-9 rounded-full bg-navy-950/80 backdrop-blur-md border border-gold-500/30 text-gold-300 flex items-center justify-center text-xs group-hover:bg-gradient-gold group-hover:text-navy-900 transition-colors shadow-lg">
                             <i class="fa-solid fa-expand"></i>
@@ -766,7 +766,7 @@
                             Dokumentasi Ownership 04
                         </span>
                         <h3 class="text-xl sm:text-2xl font-serif font-black text-white mb-2 group-hover:text-gold-200 transition-colors">
-                            Sinergi Kepemilikan &amp; Kepercayaan Mitra
+                            Sinergi Kepemilikan &amp; Kepercayaan Ownership
                         </h3>
                         <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
                             Bisnis owner travel haji &amp; umroh bersama keluarga memantapkan kebersamaan dan menerima berkas proposal resmi kepemilikan travel Hajj Club.
@@ -793,7 +793,7 @@
                     <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none z-10">
                         <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-950/85 backdrop-blur-md border border-gold-500/40 text-gold-300 text-xs font-bold shadow-lg">
                             <i class="fa-solid fa-handshake text-gold-400"></i>
-                            <span>Founder &amp; Mitra</span>
+                            <span>Founder &amp; Ownership</span>
                         </span>
                         <span class="w-9 h-9 rounded-full bg-navy-950/80 backdrop-blur-md border border-gold-500/30 text-gold-300 flex items-center justify-center text-xs group-hover:bg-gradient-gold group-hover:text-navy-900 transition-colors shadow-lg">
                             <i class="fa-solid fa-expand"></i>
@@ -809,7 +809,7 @@
                             Penyerahan Berkas Bersama Founder Hajj Club
                         </h3>
                         <p class="text-slate-300 text-xs sm:text-sm font-light leading-relaxed mb-3">
-                            Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji &amp; umroh bersama kepada bisnis owner mitra.
+                            Founder Hajj Club Purnama Qori Andesta menyerahkan langsung proposal kepemilikan travel haji &amp; umroh bersama kepada bisnis owner ownership.
                         </p>
                         <span class="inline-flex items-center gap-1.5 text-xs text-gold-400 font-semibold group-hover:underline">
                             <span>Lihat Foto Kualitas Penuh</span>
@@ -837,7 +837,7 @@
                     </div>
                     <div>
                         <h4 class="text-sm font-bold text-white">Legalitas Jelas &amp; Sah</h4>
-                        <p class="text-xs text-slate-400">Berkas kemitraan berkekuatan hukum dengan tata kelola profesional.</p>
+                        <p class="text-xs text-slate-400">Berkas ownership berkekuatan hukum dengan tata kelola profesional.</p>
                     </div>
                 </div>
 
@@ -913,7 +913,7 @@
                        onclick="trackConversion('Modal_Lightbox_CTA', '{{ $waUrlCta }}')"
                        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-gold text-navy-900 font-bold text-xs hover:shadow-lg transition shrink-0">
                         <i class="fa-brands fa-whatsapp text-base"></i>
-                        <span>Konsultasi Kemitraan</span>
+                        <span>Konsultasi Ownership</span>
                     </a>
                 </div>
             </div>
@@ -1064,7 +1064,7 @@
             </h2>
 
             <p class="max-w-2xl mx-auto text-slate-300 text-base sm:text-lg mb-10 leading-relaxed font-light">
-                Ambil bagian dalam kepemilikan bisnis yang menguntungkan sekaligus bernilai ibadah jariyah. Konsultasikan kemitraan Anda langsung bersama tim kami.
+                Ambil bagian dalam kepemilikan bisnis yang menguntungkan sekaligus bernilai ibadah jariyah. Konsultasikan ownership Anda langsung bersama tim kami.
             </p>
 
             <div class="flex flex-col sm:flex-row justify-center items-center gap-5">

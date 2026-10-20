@@ -15,7 +15,8 @@ class PrivacyPolicyTest extends TestCase
         $response->assertSee('Privacy Policy');
         $response->assertSee('Hajj Club');
         $response->assertSee('UU No. 27/2022 (UU PDP)');
-        $response->assertSee('labbaykharamayn@gmail.com');
+        $response->assertSee('Hajjclub.id@gmail.com');
+        $response->assertDontSee('labbaykharamayn@gmail.com');
         $response->assertSee('081299994899');
         $response->assertSee('Jl. Rose Garden 1 No.86');
     }

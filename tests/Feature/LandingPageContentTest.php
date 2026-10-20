@@ -196,8 +196,11 @@ class LandingPageContentTest extends TestCase
         $response->assertSee('images/partners/partner-1.jpg');
         $response->assertSee('images/partners/partner-2.jpg');
         $response->assertSee('images/partners/partner-3.jpg');
-        $response->assertSee('Langkah Pertama Keluarga Mitra');
-        $response->assertSee('Kesepakatan &amp; Legalitas Kemitraan', false);
+        $response->assertSee('images/partners/partner-4.jpg');
+        $response->assertSee('images/partners/partner-5.jpg');
+        $response->assertSee('Langkah Pertama Keluarga Ownership');
+        $response->assertSee('Kesepakatan &amp; Legalitas Ownership', false);
+        $response->assertSee('Sinergi Kepemilikan &amp; Kepercayaan Ownership', false);
         $response->assertSee('Langkah Konkret Menuju Kepemilikan Travel');
         $response->assertSee('Konsultasi Tatap Muka');
         $response->assertSee('Legalitas Jelas &amp; Sah', false);

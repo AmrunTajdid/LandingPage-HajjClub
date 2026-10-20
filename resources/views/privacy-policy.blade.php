@@ -59,7 +59,7 @@
                     <div>
                         <h2 class="text-lg sm:text-xl font-serif font-bold text-white mb-2">Prinsip Pokok Pelindungan Data Hajj Club</h2>
                         <p class="text-slate-300 text-sm leading-relaxed font-light">
-                            Kami menghargai privasi Anda seutuhnya. Hajj Club <strong class="text-gold-300 font-semibold">tidak pernah menjual, menyewakan, atau mendistribusikan data pribadi Anda</strong> kepada pihak ketiga mana pun tanpa persetujuan sah dari Anda. Data yang kami terima digunakan semata-mata untuk memfasilitasi konsultasi kemitraan kepemilikan travel haji &amp; umrah secara transparan dan profesional.
+                            Kami menghargai privasi Anda seutuhnya. Hajj Club <strong class="text-gold-300 font-semibold">tidak pernah menjual, menyewakan, atau mendistribusikan data pribadi Anda</strong> kepada pihak ketiga mana pun tanpa persetujuan sah dari Anda. Data yang kami terima digunakan semata-mata untuk memfasilitasi konsultasi ownership kepemilikan travel haji &amp; umrah secara transparan dan profesional.
                         </p>
                     </div>
                 </div>
@@ -88,10 +88,10 @@
                     <h3 class="text-xl sm:text-2xl font-serif font-bold text-white">Data Pribadi yang Kami Kumpulkan</h3>
                 </div>
                 <div class="text-slate-300 text-sm sm:text-base leading-relaxed font-light space-y-4 pl-11">
-                    <p>Kami hanya mengumpulkan data yang relevan dan dibutuhkan untuk komunikasi serta evaluasi kemitraan, yang mencakup:</p>
+                    <p>Kami hanya mengumpulkan data yang relevan dan dibutuhkan untuk komunikasi serta evaluasi ownership, yang mencakup:</p>
                     <ul class="space-y-2 list-disc list-inside text-slate-300">
                         <li><strong class="text-white font-medium">Data yang Anda Berikan Secara Sukarela</strong>: Nama lengkap, kota/domisili, nomor telepon/WhatsApp aktif, serta profesi atau bidang usaha saat ini ketika Anda menghubungi Kami melalui format pesan WhatsApp terstruktur.</li>
-                        <li><strong class="text-white font-medium">Data Interaksi &amp; Konsultasi</strong>: Notulen diskusi konsultasi kepemilikan travel, pertanyaan kemitraan, dan korespondensi resmi antara Anda dengan tim manajemen Hajj Club.</li>
+                        <li><strong class="text-white font-medium">Data Interaksi &amp; Konsultasi</strong>: Notulen diskusi konsultasi kepemilikan travel, pertanyaan ownership, dan korespondensi resmi antara Anda dengan tim manajemen Hajj Club.</li>
                         <li><strong class="text-white font-medium">Data Teknis Otomatis</strong>: Alamat IP (Internet Protocol), peramban (browser), sistem operasi, waktu kunjungan, dan halaman yang diakses yang dicatat secara otomatis oleh server demi pemeliharaan sistem keamanan.</li>
                         <li><strong class="text-white font-medium">Data Pelacak &amp; Cookies</strong>: Informasi anonim mengenai kunjungan halaman untuk keperluan analisis performa situs web (melalui Google Analytics / Google Ads conversion tracking).</li>
                     </ul>
@@ -139,7 +139,7 @@
                     </p>
                     <ul class="space-y-2 list-disc list-inside text-slate-300">
                         <li><strong class="text-white font-medium">Protokol Enkripsi SSL (HTTPS)</strong>: Seluruh komunikasi pada situs web Kami dilindungi sertifikat keamanan SSL untuk mencegah intersepsi pihak luar.</li>
-                        <li><strong class="text-white font-medium">Akses Terbatas</strong>: Hanya personel manajemen resmi Hajj Club yang memiliki otorisasi untuk mengakses informasi konsultasi kemitraan.</li>
+                        <li><strong class="text-white font-medium">Akses Terbatas</strong>: Hanya personel manajemen resmi Hajj Club yang memiliki otorisasi untuk mengakses informasi konsultasi ownership.</li>
                         <li><strong class="text-white font-medium">Bebas Spam &amp; Jual Beli Data</strong>: Kami tidak pernah dan tidak akan pernah menjual atau membagikan data Anda kepada pihak pengiklan pihak ketiga untuk tujuan spam komersial.</li>
                     </ul>
                 </div>
@@ -208,7 +208,7 @@
                         <div class="flex items-center gap-3 text-xs sm:text-sm">
                             <i class="fa-brands fa-whatsapp text-emerald-400 w-5 text-base"></i>
                             <a href="{{ $waUrl }}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline font-semibold">
-                                {{ $waDisplay }} (Hotline Konsultasi Kemitraan)
+                                {{ $waDisplay }} (Hotline Konsultasi Ownership)
                             </a>
                         </div>
                     </div>

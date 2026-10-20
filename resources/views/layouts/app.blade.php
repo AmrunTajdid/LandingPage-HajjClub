@@ -8,7 +8,7 @@
     <!-- SEO Meta Tags -->
     <title>{{ $title ?? 'Hajj Club - Pelopor Kepemilikan Travel Haji Bersama' }}</title>
     <meta name="description" content="{{ $description ?? 'Hajj Club adalah pelopor model kepemilikan bersama travel haji dan umroh pertama di Indonesia. Transparan, profesional, dan berkelanjutan.' }}">
-    <meta name="keywords" content="Hajj Club, kepemilikan travel haji bersama, bisnis travel umroh, kemitraan travel haji, Purnama Qori Andesta, travel haji transparan">
+    <meta name="keywords" content="Hajj Club, kepemilikan travel haji bersama, bisnis travel umroh, ownership travel haji, Purnama Qori Andesta, travel haji transparan">
     <meta name="author" content="Hajj Club">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{{ url()->current() }}">
@@ -112,7 +112,7 @@
                 <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
             </span>
             <i class="fa-brands fa-whatsapp text-2xl"></i>
-            <span class="hidden sm:inline-block text-sm pr-1">Konsultasi Kemitraan</span>
+            <span class="hidden sm:inline-block text-sm pr-1">Konsultasi Ownership</span>
         </a>
     </div>
 
