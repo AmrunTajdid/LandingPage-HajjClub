@@ -44,7 +44,7 @@ return [
     ],
 
     'google_ads' => [
-        'conversion_id' => env('GADS_CONVERSION_ID'),
+        'conversion_id' => env('GADS_CONVERSION_ID', 'AW-18537933251'),
     ],
 
     'whatsapp' => [

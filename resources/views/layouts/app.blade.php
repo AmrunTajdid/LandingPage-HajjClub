@@ -53,20 +53,20 @@
     @endif
     <!-- End Google Tag Manager -->
 
-    <!-- Google Analytics (GA4) & Google Ads -->
-    @if(config('services.ga4.id'))
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.ga4.id') }}"></script>
+    <!-- Google tag (gtag.js) for Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18537933251"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
+
+        gtag('config', 'AW-18537933251');
+        window.GOOGLE_ADS_CONVERSION_ID = '{{ config('services.google_ads.conversion_id', 'AW-18537933251') }}';
+        @if(config('services.ga4.id'))
         gtag('config', '{{ config('services.ga4.id') }}');
-        @if(config('services.google_ads.conversion_id'))
-        window.GOOGLE_ADS_CONVERSION_ID = '{{ config('services.google_ads.conversion_id') }}';
         @endif
     </script>
-    @endif
-    <!-- End Google Analytics -->
+    <!-- End Google tag (gtag.js) -->
 
     @stack('head')
 
