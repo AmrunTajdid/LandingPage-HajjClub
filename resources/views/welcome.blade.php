@@ -250,7 +250,7 @@
                                      alt="Purnama Qori Andesta - Founder Hajj Club"
                                      loading="lazy"
                                      class="w-full h-full object-cover object-top group-hover/photo:scale-105 transition-transform duration-700">
-                                
+
                                 <!-- Subtle Dark Gradient Overlay at Bottom -->
                                 <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-transparent to-transparent pointer-events-none"></div>
 
@@ -947,17 +947,17 @@
                 </h2>
                 <div class="w-24 h-1 bg-gradient-gold mx-auto mb-6 rounded-full"></div>
                 <p class="text-slate-300 text-sm sm:text-base leading-relaxed font-light">
-                    Kupas tuntas strategi memiliki bisnis travel haji &amp; umrah resmi tanpa risiko modal Rp 5 Miliar dan tanpa membuang waktu 4 tahun mengurus perizinan dari nol. Dapatkan panduan langsung dari tim manajemen Hajj Club.
+                    Kupas tuntas strategi memiliki bisnis travel haji &amp; umrah resmi tanpa risiko dan tanpa membuang waktu 4 tahun mengurus perizinan dari nol. Dapatkan panduan langsung dari tim manajemen Hajj Club.
                 </p>
 
                 <!-- Value / Commitment Pill -->
                 <div class="mt-6 inline-flex flex-wrap items-center justify-center gap-3 p-2 px-5 rounded-2xl bg-gold-500/10 border border-gold-500/30 text-xs sm:text-sm text-gold-300">
                     <span class="font-bold text-white flex items-center gap-1.5">
                         <i class="fa-solid fa-ticket text-gold-400"></i>
-                        <span>Investasi Tiket:</span>
+                        <span>Harga Tiket:</span>
                     </span>
                     <span class="text-lg font-extrabold text-gold-300">Rp 100.000</span>
-                    <span class="text-slate-400 text-xs font-light">/ peserta (komitmen belajar terjangkau)</span>
+                    <span class="text-slate-400 text-xs font-light">/ peserta (komitmen terjangkau)</span>
                 </div>
             </div>
 
