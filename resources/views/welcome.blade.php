@@ -994,7 +994,7 @@
 
                         <!-- Description & Target -->
                         <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light mb-5">
-                            Sesi pagi yang kondusif dan fokus untuk berdiskusi mendalam bersama manajemen Hajj Club. Pilihan tepat untuk agen travel, pengusaha, freelancer umrah, dan pengurus majelis ta'lim.
+                            Sesi pagi yang kondusif dan fokus untuk berdiskusi mendalam bersama manajemen Hajj Club.
                         </p>
 
                         <!-- Key Benefits List -->
@@ -1068,7 +1068,7 @@
 
                         <!-- Description & Target -->
                         <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light mb-5">
-                            Sesi malam hari kerja yang leluasa setelah aktivitas kantor atau usaha harian selesai. Sangat tepat bagi profesional, eksekutif, wirausahawan, dan asatidz yang ingin fokus menyimak.
+                            Sesi malam hari kerja yang leluasa setelah aktivitas kantor atau usaha harian selesai.
                         </p>
 
                         <!-- Key Benefits List -->
