@@ -930,7 +930,7 @@
         </div>
     </section>
 
-    <!-- SECTION: JADWAL WEBINAR BERBAYAR (LIVE ZOOM) -->
+    <!-- SECTION: JADWAL WEBINAR BERBAYAR (LIVE ZOOM) - UPDATED -->
     <section id="webinar" class="py-24 bg-gradient-to-b from-navy-900 via-navy-950 to-navy-900 border-b border-gold-500/10 relative overflow-hidden">
         <!-- Ambient Decorative Glow -->
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gold-500/5 rounded-full blur-3xl pointer-events-none"></div>
