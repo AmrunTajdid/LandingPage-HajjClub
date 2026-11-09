@@ -215,12 +215,15 @@ class LandingPageContentTest extends TestCase
         $response->assertSee('Rp 100.000');
         $response->assertSee('SESI PAGI (HARI KERJA)');
         $response->assertSee('09.00 WIB');
-        $response->assertSee('Senin sampai Jumat');
-        $response->assertSee('SESI MALAM (AKHIR PEKAN)');
+        $response->assertSee('SESI MALAM (HARI KERJA)');
         $response->assertSee('19.30 WIB');
+        $response->assertSee('SESI PAGI (KHUSUS SABTU)');
+        $response->assertSee('10.00 WIB');
+        $response->assertSee('Senin sampai Jumat');
         $response->assertSee('Setiap Hari Sabtu');
-        $response->assertSee('Webinar_Pagi_CTA');
-        $response->assertSee('Webinar_Malam_CTA');
+        $response->assertSee('Webinar_Pagi_Weekday_CTA');
+        $response->assertSee('Webinar_Malam_Weekday_CTA');
+        $response->assertSee('Webinar_Pagi_Sabtu_CTA');
         $response->assertSee('/#webinar');
     }
 }

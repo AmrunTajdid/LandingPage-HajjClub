@@ -6,11 +6,14 @@
     $waUrlCta = "https://wa.me/{$waNumber}?text=" . urlencode($waDefaultMessage);
 
     // WhatsApp URL Khusus Webinar Berbayar (Rp 100.000)
-    $waWebinarPagiMessage = "Halo Admin Hajj Club, saya ingin mendaftar Webinar Eksklusif Kepemilikan Travel Haji & Umrah (Tiket Rp 100.000) untuk:\n\n📅 Sesi Pagi (Senin - Jumat, 09.00 WIB s/d Selesai)\n\nBerikut data diri saya:\n• Nama Lengkap: \n• No. WhatsApp: \n• Kota/Domisili: \n• Profesi/Usaha saat ini: \n\nMohon informasi nomor rekening resmi & tautan akses Zoom. Terima kasih.";
-    $waUrlWebinarPagi = "https://wa.me/{$waNumber}?text=" . urlencode($waWebinarPagiMessage);
+    $waWebinarPagiWeekdayMessage = "Halo Admin Hajj Club, saya ingin mendaftar Webinar Eksklusif Kepemilikan Travel Haji & Umrah (Tiket Rp 100.000) untuk:\n\n📅 Sesi Pagi Hari Kerja (Senin - Jumat, 09.00 WIB s/d Selesai)\n\nBerikut data diri saya:\n• Nama Lengkap: \n• No. WhatsApp: \n• Kota/Domisili: \n• Profesi/Usaha saat ini: \n\nMohon informasi nomor rekening resmi & tautan akses Zoom. Terima kasih.";
+    $waUrlWebinarPagiWeekday = "https://wa.me/{$waNumber}?text=" . urlencode($waWebinarPagiWeekdayMessage);
 
-    $waWebinarMalamMessage = "Halo Admin Hajj Club, saya ingin mendaftar Webinar Eksklusif Kepemilikan Travel Haji & Umrah (Tiket Rp 100.000) untuk:\n\n📅 Sesi Malam (Sabtu, 19.30 WIB s/d Selesai)\n\nBerikut data diri saya:\n• Nama Lengkap: \n• No. WhatsApp: \n• Kota/Domisili: \n• Profesi/Usaha saat ini: \n\nMohon informasi nomor rekening resmi & tautan akses Zoom. Terima kasih.";
-    $waUrlWebinarMalam = "https://wa.me/{$waNumber}?text=" . urlencode($waWebinarMalamMessage);
+    $waWebinarMalamWeekdayMessage = "Halo Admin Hajj Club, saya ingin mendaftar Webinar Eksklusif Kepemilikan Travel Haji & Umrah (Tiket Rp 100.000) untuk:\n\n📅 Sesi Malam Hari Kerja (Senin - Jumat, 19.30 WIB s/d Selesai)\n\nBerikut data diri saya:\n• Nama Lengkap: \n• No. WhatsApp: \n• Kota/Domisili: \n• Profesi/Usaha saat ini: \n\nMohon informasi nomor rekening resmi & tautan akses Zoom. Terima kasih.";
+    $waUrlWebinarMalamWeekday = "https://wa.me/{$waNumber}?text=" . urlencode($waWebinarMalamWeekdayMessage);
+
+    $waWebinarPagiSabtuMessage = "Halo Admin Hajj Club, saya ingin mendaftar Webinar Eksklusif Kepemilikan Travel Haji & Umrah (Tiket Rp 100.000) untuk:\n\n📅 Sesi Pagi Khusus Sabtu (10.00 WIB s/d Selesai)\n\nBerikut data diri saya:\n• Nama Lengkap: \n• No. WhatsApp: \n• Kota/Domisili: \n• Profesi/Usaha saat ini: \n\nMohon informasi nomor rekening resmi & tautan akses Zoom. Terima kasih.";
+    $waUrlWebinarPagiSabtu = "https://wa.me/{$waNumber}?text=" . urlencode($waWebinarPagiSabtuMessage);
 
     /*
      |--------------------------------------------------------------------------
@@ -958,152 +961,231 @@
                 </div>
             </div>
 
-            <!-- Two Schedule Cards: Sesi Pagi & Sesi Malam -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16">
-                <!-- Card 1: Sesi Weekday (Senin - Jumat) -->
-                <div class="bg-gradient-to-b from-navy-950 to-navy-900/90 rounded-3xl p-7 sm:p-9 border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+            <!-- Three Schedule Cards: Sesi Pagi Hari Kerja, Sesi Malam Hari Kerja, & Sesi Pagi Khusus Sabtu -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-16">
+                <!-- Card 1: Sesi Pagi Hari Kerja (Senin - Jumat) -->
+                <div class="bg-gradient-to-b from-navy-950 to-navy-900/90 rounded-3xl p-6 sm:p-8 border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
                     <!-- Glow effect on hover -->
                     <div class="absolute -top-24 -right-24 w-48 h-48 bg-gold-500/10 rounded-full blur-2xl group-hover:bg-gold-500/20 transition-all pointer-events-none"></div>
 
                     <div>
                         <!-- Badge & Icon -->
-                        <div class="flex items-center justify-between mb-6">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold">
+                        <div class="flex items-center justify-between mb-5">
+                            <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold">
                                 <i class="fa-solid fa-sun text-gold-400"></i>
                                 <span>SESI PAGI (HARI KERJA)</span>
                             </span>
-                            <span class="px-3 py-1 rounded-lg bg-navy-800 border border-slate-700 text-slate-300 text-xs font-mono">
+                            <span class="px-2.5 py-1 rounded-lg bg-navy-800 border border-slate-700 text-slate-300 text-xs font-mono">
                                 Live Zoom
                             </span>
                         </div>
 
                         <!-- Schedule Highlight -->
-                        <div class="mb-6 pb-6 border-b border-slate-800">
-                            <div class="flex items-baseline gap-2 mb-2">
-                                <span class="text-3xl sm:text-4xl font-serif font-black text-white">09.00 WIB</span>
-                                <span class="text-slate-400 text-sm font-medium">s/d Selesai</span>
+                        <div class="mb-5 pb-5 border-b border-slate-800">
+                            <div class="flex items-baseline gap-2 mb-1.5">
+                                <span class="text-3xl font-serif font-black text-white">09.00 WIB</span>
+                                <span class="text-slate-400 text-xs sm:text-sm font-medium">s/d Selesai</span>
                             </div>
-                            <div class="flex items-center gap-2 text-sm text-gold-400 font-semibold">
+                            <div class="flex items-center gap-2 text-xs sm:text-sm text-gold-400 font-semibold">
                                 <i class="fa-solid fa-calendar-days text-xs"></i>
                                 <span>Senin sampai Jumat</span>
                             </div>
                         </div>
 
                         <!-- Description & Target -->
-                        <p class="text-slate-300 text-sm leading-relaxed font-light mb-6">
-                            Sesi pagi yang kondusif untuk berdiskusi mendalam bersama tim Hajj Club. Sangat cocok bagi agen travel, pengusaha, freelancer umrah, dan pengurus majelis ta'lim.
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light mb-5">
+                            Sesi pagi yang kondusif dan fokus untuk berdiskusi mendalam bersama manajemen Hajj Club. Pilihan tepat untuk agen travel, pengusaha, freelancer umrah, dan pengurus majelis ta'lim.
                         </p>
 
                         <!-- Key Benefits List -->
-                        <ul class="space-y-3 mb-8 text-xs sm:text-sm text-slate-300">
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                        <ul class="space-y-2.5 mb-6 text-xs text-slate-300">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Pemaparan strategi kepemilikan travel tanpa modal Rp 5 Miliar</span>
                             </li>
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Sesi interaktif tanya jawab &amp; konsultasi kendala usaha travel</span>
                             </li>
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Mendapatkan ringkasan materi (PDF) &amp; panduan langkah bergabung</span>
                             </li>
                         </ul>
                     </div>
 
                     <!-- Bottom Price & CTA -->
-                    <div class="pt-6 border-t border-slate-800/80">
-                        <div class="flex items-center justify-between mb-4">
+                    <div class="pt-5 border-t border-slate-800/80">
+                        <div class="flex items-center justify-between mb-3.5">
                             <div>
                                 <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Biaya Tiket Webinar</span>
-                                <span class="text-2xl font-serif font-black text-white">Rp 100.000</span>
+                                <span class="text-xl sm:text-2xl font-serif font-black text-white">Rp 100.000</span>
                             </div>
-                            <span class="text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full font-semibold">
+                            <span class="text-[11px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-semibold">
                                 Kuota Terbatas
                             </span>
                         </div>
-                        <a href="{{ $waUrlWebinarPagi }}"
+                        <a href="{{ $waUrlWebinarPagiWeekday }}"
                            target="_blank"
                            rel="noopener noreferrer"
-                           onclick="trackConversion('Webinar_Pagi_CTA', '{{ $waUrlWebinarPagi }}')"
-                           class="w-full bg-gradient-gold text-navy-900 font-bold py-3.5 px-6 rounded-xl hover:shadow-lg hover:shadow-gold-500/30 transition-all flex items-center justify-center gap-2 group-hover:scale-[1.02]">
-                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                           onclick="trackConversion('Webinar_Pagi_Weekday_CTA', '{{ $waUrlWebinarPagiWeekday }}')"
+                           class="w-full bg-gradient-gold text-navy-900 font-bold py-3 px-4 rounded-xl hover:shadow-lg hover:shadow-gold-500/30 transition-all flex items-center justify-center gap-2 text-xs sm:text-sm group-hover:scale-[1.02]">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
                             <span>Daftar Sesi Pagi (09.00 WIB)</span>
-                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Card 2: Sesi Weekend (Sabtu Malam) -->
-                <div class="bg-gradient-to-b from-navy-950 to-navy-900/90 rounded-3xl p-7 sm:p-9 border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+                <!-- Card 2: Sesi Malam Hari Kerja (Senin - Jumat) -->
+                <div class="bg-gradient-to-b from-navy-950 to-navy-900/90 rounded-3xl p-6 sm:p-8 border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
                     <!-- Glow effect on hover -->
                     <div class="absolute -top-24 -right-24 w-48 h-48 bg-gold-500/10 rounded-full blur-2xl group-hover:bg-gold-500/20 transition-all pointer-events-none"></div>
 
                     <div>
                         <!-- Badge & Icon -->
-                        <div class="flex items-center justify-between mb-6">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold">
+                        <div class="flex items-center justify-between mb-5">
+                            <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold">
                                 <i class="fa-solid fa-moon text-gold-400"></i>
-                                <span>SESI MALAM (AKHIR PEKAN)</span>
+                                <span>SESI MALAM (HARI KERJA)</span>
                             </span>
-                            <span class="px-3 py-1 rounded-lg bg-navy-800 border border-slate-700 text-slate-300 text-xs font-mono">
+                            <span class="px-2.5 py-1 rounded-lg bg-navy-800 border border-slate-700 text-slate-300 text-xs font-mono">
                                 Live Zoom
                             </span>
                         </div>
 
                         <!-- Schedule Highlight -->
-                        <div class="mb-6 pb-6 border-b border-slate-800">
-                            <div class="flex items-baseline gap-2 mb-2">
-                                <span class="text-3xl sm:text-4xl font-serif font-black text-white">19.30 WIB</span>
-                                <span class="text-slate-400 text-sm font-medium">s/d Selesai</span>
+                        <div class="mb-5 pb-5 border-b border-slate-800">
+                            <div class="flex items-baseline gap-2 mb-1.5">
+                                <span class="text-3xl font-serif font-black text-white">19.30 WIB</span>
+                                <span class="text-slate-400 text-xs sm:text-sm font-medium">s/d Selesai</span>
                             </div>
-                            <div class="flex items-center gap-2 text-sm text-gold-400 font-semibold">
+                            <div class="flex items-center gap-2 text-xs sm:text-sm text-gold-400 font-semibold">
                                 <i class="fa-solid fa-calendar-days text-xs"></i>
-                                <span>Setiap Hari Sabtu</span>
+                                <span>Senin sampai Jumat</span>
                             </div>
                         </div>
 
                         <!-- Description & Target -->
-                        <p class="text-slate-300 text-sm leading-relaxed font-light mb-6">
-                            Waktu santai malam minggu yang leluasa tanpa bentrok jam kerja harian. Sangat tepat untuk profesional, eksekutif, ustadz, kiai, dan pimpinan KBIHU.
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light mb-5">
+                            Sesi malam hari kerja yang leluasa setelah aktivitas kantor atau usaha harian selesai. Sangat tepat bagi profesional, eksekutif, wirausahawan, dan asatidz yang ingin fokus menyimak.
                         </p>
 
                         <!-- Key Benefits List -->
-                        <ul class="space-y-3 mb-8 text-xs sm:text-sm text-slate-300">
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                        <ul class="space-y-2.5 mb-6 text-xs text-slate-300">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Pemaparan strategi kepemilikan travel tanpa modal Rp 5 Miliar</span>
                             </li>
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Sesi interaktif tanya jawab &amp; konsultasi kendala usaha travel</span>
                             </li>
-                            <li class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0 text-xs"></i>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
                                 <span>Mendapatkan ringkasan materi (PDF) &amp; panduan langkah bergabung</span>
                             </li>
                         </ul>
                     </div>
 
                     <!-- Bottom Price & CTA -->
-                    <div class="pt-6 border-t border-slate-800/80">
-                        <div class="flex items-center justify-between mb-4">
+                    <div class="pt-5 border-t border-slate-800/80">
+                        <div class="flex items-center justify-between mb-3.5">
                             <div>
                                 <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Biaya Tiket Webinar</span>
-                                <span class="text-2xl font-serif font-black text-white">Rp 100.000</span>
+                                <span class="text-xl sm:text-2xl font-serif font-black text-white">Rp 100.000</span>
                             </div>
-                            <span class="text-xs text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full font-semibold">
+                            <span class="text-[11px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-semibold">
                                 Kuota Terbatas
                             </span>
                         </div>
-                        <a href="{{ $waUrlWebinarMalam }}"
+                        <a href="{{ $waUrlWebinarMalamWeekday }}"
                            target="_blank"
                            rel="noopener noreferrer"
-                           onclick="trackConversion('Webinar_Malam_CTA', '{{ $waUrlWebinarMalam }}')"
-                           class="w-full bg-gradient-gold text-navy-900 font-bold py-3.5 px-6 rounded-xl hover:shadow-lg hover:shadow-gold-500/30 transition-all flex items-center justify-center gap-2 group-hover:scale-[1.02]">
-                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                           onclick="trackConversion('Webinar_Malam_Weekday_CTA', '{{ $waUrlWebinarMalamWeekday }}')"
+                           class="w-full bg-gradient-gold text-navy-900 font-bold py-3 px-4 rounded-xl hover:shadow-lg hover:shadow-gold-500/30 transition-all flex items-center justify-center gap-2 text-xs sm:text-sm group-hover:scale-[1.02]">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
                             <span>Daftar Sesi Malam (19.30 WIB)</span>
-                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Sesi Pagi Khusus Sabtu (Akhir Pekan) -->
+                <div class="bg-gradient-to-b from-navy-950 to-navy-900/90 rounded-3xl p-6 sm:p-8 border-2 border-gold-500/30 hover:border-gold-500/70 shadow-2xl transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+                    <!-- Glow effect on hover -->
+                    <div class="absolute -top-24 -right-24 w-48 h-48 bg-gold-500/10 rounded-full blur-2xl group-hover:bg-gold-500/20 transition-all pointer-events-none"></div>
+
+                    <div>
+                        <!-- Badge & Icon -->
+                        <div class="flex items-center justify-between mb-5">
+                            <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/15 border border-gold-500/40 text-gold-300 text-xs font-bold">
+                                <i class="fa-solid fa-mug-hot text-gold-400"></i>
+                                <span>SESI PAGI (KHUSUS SABTU)</span>
+                            </span>
+                            <span class="px-2.5 py-1 rounded-lg bg-navy-800 border border-slate-700 text-slate-300 text-xs font-mono">
+                                Live Zoom
+                            </span>
+                        </div>
+
+                        <!-- Schedule Highlight -->
+                        <div class="mb-5 pb-5 border-b border-slate-800">
+                            <div class="flex items-baseline gap-2 mb-1.5">
+                                <span class="text-3xl font-serif font-black text-white">10.00 WIB</span>
+                                <span class="text-slate-400 text-xs sm:text-sm font-medium">s/d Selesai</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-2 text-xs sm:text-sm">
+                                <span class="text-gold-400 font-semibold flex items-center gap-2">
+                                    <i class="fa-solid fa-calendar-days text-xs"></i>
+                                    <span>Setiap Hari Sabtu</span>
+                                </span>
+                                <span class="text-[10px] text-amber-300/90 bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded-md font-medium">
+                                    Sesi Pagi Saja
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Description & Target -->
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed font-light mb-5">
+                            Sesi akhir pekan di Sabtu pagi yang santai dan leluasa bersama keluarga atau rekan bisnis. <span class="text-gold-300 font-normal">Khusus hari Sabtu hanya tersedia sesi pagi (tidak ada sesi malam).</span>
+                        </p>
+
+                        <!-- Key Benefits List -->
+                        <ul class="space-y-2.5 mb-6 text-xs text-slate-300">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
+                                <span>Pemaparan strategi kepemilikan travel tanpa modal Rp 5 Miliar</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
+                                <span>Sesi interaktif tanya jawab &amp; konsultasi kendala usaha travel</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5 shrink-0 text-xs"></i>
+                                <span>Mendapatkan ringkasan materi (PDF) &amp; panduan langkah bergabung</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Bottom Price & CTA -->
+                    <div class="pt-5 border-t border-slate-800/80">
+                        <div class="flex items-center justify-between mb-3.5">
+                            <div>
+                                <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Biaya Tiket Webinar</span>
+                                <span class="text-xl sm:text-2xl font-serif font-black text-white">Rp 100.000</span>
+                            </div>
+                            <span class="text-[11px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 rounded-full font-semibold">
+                                Kuota Terbatas
+                            </span>
+                        </div>
+                        <a href="{{ $waUrlWebinarPagiSabtu }}"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           onclick="trackConversion('Webinar_Pagi_Sabtu_CTA', '{{ $waUrlWebinarPagiSabtu }}')"
+                           class="w-full bg-gradient-gold text-navy-900 font-bold py-3 px-4 rounded-xl hover:shadow-lg hover:shadow-gold-500/30 transition-all flex items-center justify-center gap-2 text-xs sm:text-sm group-hover:scale-[1.02]">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Daftar Sesi Sabtu (10.00 WIB)</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </a>
                     </div>
                 </div>
@@ -1177,7 +1259,7 @@
                         </div>
                         <h5 class="text-sm font-bold text-white mb-1">Pilih Sesi &amp; Chat WA</h5>
                         <p class="text-xs text-slate-400 font-light">
-                            Pilih sesi pagi (09.00 WIB) atau malam (19.30 WIB), lalu klik tombol pendaftaran WhatsApp.
+                            Pilih sesi hari kerja (09.00 / 19.30 WIB) atau Sabtu pagi (10.00 WIB), lalu klik tombol pendaftaran WhatsApp.
                         </p>
                     </div>
 
