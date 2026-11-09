@@ -205,4 +205,22 @@ class LandingPageContentTest extends TestCase
         $response->assertSee('Konsultasi Tatap Muka');
         $response->assertSee('Legalitas Jelas &amp; Sah', false);
     }
+
+    public function test_landing_page_contains_paid_webinar_section_and_schedules(): void
+    {
+        $response = $this->get('/');
+
+        $response->assertSee('id="webinar"', false);
+        $response->assertSee('Jadwal Webinar Kepemilikan');
+        $response->assertSee('Rp 100.000');
+        $response->assertSee('SESI PAGI (HARI KERJA)');
+        $response->assertSee('09.00 WIB');
+        $response->assertSee('Senin sampai Jumat');
+        $response->assertSee('SESI MALAM (AKHIR PEKAN)');
+        $response->assertSee('19.30 WIB');
+        $response->assertSee('Setiap Hari Sabtu');
+        $response->assertSee('Webinar_Pagi_CTA');
+        $response->assertSee('Webinar_Malam_CTA');
+        $response->assertSee('/#webinar');
+    }
 }

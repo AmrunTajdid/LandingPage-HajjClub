@@ -40,6 +40,7 @@
                     <li><a href="{{ url('/#pasar') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px] text-gold-500"></i> Peluang Pasar</a></li>
                     <li><a href="{{ url('/#value') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px] text-gold-500"></i> Nilai Unggul (UVP)</a></li>
                     <li><a href="{{ url('/#galery') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px] text-gold-500"></i> Galery</a></li>
+                    <li><a href="{{ url('/#webinar') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px] text-gold-500"></i> Jadwal Webinar (Rp 100rb)</a></li>
                     <li><a href="{{ url('/#roadmap') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-chevron-right text-[10px] text-gold-500"></i> Roadmap Perizinan</a></li>
                     <li><a href="{{ route('privacy.policy') }}" class="hover:text-gold-400 transition-colors flex items-center gap-2"><i class="fa-solid fa-shield-halved text-[10px] text-gold-500"></i> Kebijakan Privasi</a></li>
                 </ul>

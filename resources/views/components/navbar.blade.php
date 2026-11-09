@@ -15,12 +15,16 @@
             </a>
 
             <!-- Desktop Nav Links -->
-            <div class="hidden lg:flex items-center space-x-7 text-sm font-medium">
+            <div class="hidden lg:flex items-center space-x-5 xl:space-x-7 text-sm font-medium">
                 <a href="{{ url('/#intro') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">Tentang Kami</a>
                 <a href="{{ url('/#visi-misi') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">Visi &amp; Misi</a>
                 <a href="{{ url('/#pasar') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">Peluang Pasar</a>
                 <a href="{{ url('/#value') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">UVP</a>
                 <a href="{{ url('/#galery') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">Galery</a>
+                <a href="{{ url('/#webinar') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1 inline-flex items-center gap-1.5 group">
+                    <span>Webinar</span>
+                    <span class="px-1.5 py-0.5 text-[10px] font-bold rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/40 group-hover:bg-gold-500 group-hover:text-navy-950 transition-colors">100rb</span>
+                </a>
                 <a href="{{ url('/#roadmap') }}" class="text-slate-300 hover:text-gold-400 transition-colors py-1">Roadmap</a>
             </div>
 
@@ -64,6 +68,13 @@
         <a @click="mobileOpen = false" href="{{ url('/#pasar') }}" class="block py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">Peluang Pasar</a>
         <a @click="mobileOpen = false" href="{{ url('/#value') }}" class="block py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">Unique Value Proposition</a>
         <a @click="mobileOpen = false" href="{{ url('/#galery') }}" class="block py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">Galery</a>
+        <a @click="mobileOpen = false" href="{{ url('/#webinar') }}" class="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-video text-gold-400 text-xs"></i>
+                <span>Jadwal Webinar</span>
+            </span>
+            <span class="px-2 py-0.5 text-[11px] font-bold rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30">Rp 100rb</span>
+        </a>
         <a @click="mobileOpen = false" href="{{ url('/#roadmap') }}" class="block py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">Roadmap Perizinan</a>
         <a @click="mobileOpen = false" href="{{ route('privacy.policy') }}" class="block py-2.5 px-3 rounded-lg text-slate-200 hover:bg-navy-800 hover:text-gold-400 font-medium transition">Kebijakan Privasi</a>
 
